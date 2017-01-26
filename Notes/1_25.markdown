@@ -1,4 +1,5 @@
 <center>**1.25.17**</center>
+<center>[Repo](https://github.com/antiboredom/dynamicweb-2017/tree/master/week_02)</center>
 
 _I took way too long to create this, It has been a long time coming_
 >-akash
@@ -31,6 +32,6 @@ In order to see all of the available options *in chrome*
 String.prototype
 ```
 **Homework**
-* Create a text based game that works in the chrome command line
+* Create a text based game that works in the chrome command line `console.log` for output
 * Do some reading
 * Install node
