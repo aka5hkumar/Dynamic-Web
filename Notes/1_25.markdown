@@ -1,4 +1,4 @@
-<center>**Notes Day Two**</center>
+<center>**1.25.17**</center>
 
 _I took way too long to create this, It has been a long time coming_
 >-akash
@@ -30,4 +30,7 @@ In order to see all of the available options *in chrome*
 ```javascript
 String.prototype
 ```
-****
+**Homework**
+* Create a text based game that works in the chrome command line
+* Do some reading
+* Install node
