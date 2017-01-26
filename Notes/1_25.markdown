@@ -1,0 +1,33 @@
+<center>**Notes Day Two**</center>
+
+_I took way too long to create this, It has been a long time coming_
+>-akash
+
+```javascript
+function one(){
+  function two(){
+
+  }
+}
+```
+
+**Constructor functions**
+Starts with a capital letter due to convention
+```javascript
+var firstName;
+var lastName;
+function Person(firstName, lastName)
+{
+  this.firstName = firstname;
+  this.lastName = lastName;
+}
+
+var sam = new Person ("Sam", "Lavigne");
+
+
+```
+In order to see all of the available options *in chrome*
+```javascript
+String.prototype
+```
+****
