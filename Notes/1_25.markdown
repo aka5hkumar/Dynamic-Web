@@ -32,6 +32,6 @@ In order to see all of the available options *in chrome*
 String.prototype
 ```
 **Homework**
-* Create a text based game that works in the chrome command line `console.log` for output
+* Create a text based game that works in the chrome command line `console.log` for output. Use `readline()` for input. 
 * Do some reading
 * Install node
