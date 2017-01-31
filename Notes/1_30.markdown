@@ -1,0 +1,54 @@
+<center><h2>**Class 3**</h2></center>
+
+Today we do bash
+
+Notes are
+[here](https://github.com/antiboredom/dynamicweb-2017/tree/master/week_02)
+
+
+Basic bash stuff...
+
+
+`
+grep
+`
+Allows you to search text line by line.
+`
+grep 'whale' moby_dick.txt
+`
+
+folder actions
+
+`grep "whale" moby_dick.txt > just_whales.txt`
+
+piping >>>>>> | <<<<<<<<< that's the pipe. It allows multiple commands to the same data set
+
+`grep "whale" mody_dick.txt | sort`
+
+`man` for the manual
+
+`more`
+
+to make it paginated.
+
+^D Done with user input
+
+^C STOP RIGHT MEOW
+
+^Z to suspend
+
+fg %1 for foreground (%1 for the first thing in the background)
+
+jobs to see the background jobs.
+
+mv and cp to move and copy
+
+<center><h3>**Node**</h3></center>
+
+run node in a command windows
+this refers to the window
+node allows for use of the newest javascript
+so you can do constants
+`const`
+
+`let`
