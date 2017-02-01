@@ -24,7 +24,7 @@ function maths() {
     var1 = Math.floor((Math.random() * 10) + 1);
     var2 = Math.floor((Math.random() * 10) + 1);
     var3 = (var1 + var2);
-    console.log(var3);
+    // console.log(var3);
     message = ["what is " + var1 + ' + ' + var2 + '? '];
     rl.question(message, (answer) => {
         // TODO: Log the answer in a database
