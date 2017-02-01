@@ -21,7 +21,7 @@ maths();
 
 function maths() {
     console.log('Coffee is at', cofeeInit, 'degrees');
-    var1 = Math.floor((Math.random() * 10) + 1);readline j
+    var1 = Math.floor((Math.random() * 10) + 1);
     var2 = Math.floor((Math.random() * 10) + 1);
     var3 = (var1 + var2);
     console.log(var3);
