@@ -1,7 +1,6 @@
 var cofeeInit = 200;
 var currentAnswer;
 var timeDown;
-var secondDown;
 var var1;
 var var2;
 var var3;
@@ -21,19 +20,17 @@ var rl = readline.createInterface({
 maths();
 
 function maths() {
-    // console.log(millis());
     console.log('Coffee is at', cofeeInit, 'degrees');
-    var1 = Math.floor((Math.random() * 10) + 1);
+    var1 = Math.floor((Math.random() * 10) + 1);readline j
     var2 = Math.floor((Math.random() * 10) + 1);
     var3 = (var1 + var2);
     console.log(var3);
     message = ["what is " + var1 + ' + ' + var2 + '? '];
-    // console.log(message);
     rl.question(message, (answer) => {
         // TODO: Log the answer in a database
         currentAnswer = answer;
         currentAnswer = currentAnswer.toLowerCase();
-        //console.log(currentAnswer);
+        // input code from https://nodejs.org/api/readline.html
         if (currentAnswer == var3) {
             maths();
             i++;
