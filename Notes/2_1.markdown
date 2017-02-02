@@ -73,3 +73,7 @@ static paths can be frontend files, put them in a folder usually
 `app.use(express.static('public'))`
 
 Stuff in the public folder
+
+heroku
+git based server
+must have accurate package.json files
