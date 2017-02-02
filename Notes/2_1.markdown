@@ -1,0 +1,40 @@
+<center><h2>**Class 3**</h2></center>
+```javascript
+function whatever() {
+
+}
+module.export.anything ={
+  sayHi:function () {
+      console.log('hello');
+  },
+  sayBye:function(){
+    console.log('bye');
+  }
+}
+somethingelse: somethingelse
+```
+require(./mymodule.js)
+
+can reference more specifically
+
+`
+require(./mymodule.anything).sayHi
+`
+
+`
+require(./mymodule).sayBye
+`
+
+anything with `module.export` is exposed
+everything else in the function is *not seen*
+
+**NPM**
+
+Lets you install 3rd party modules
+
+`npm init`
+allows initialization of NPM
+
+It makes a JSON file
+**very important to get the code to work server side**
+so for express, --save to update the package.JSON
