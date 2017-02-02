@@ -38,3 +38,38 @@ allows initialization of NPM
 It makes a JSON file
 **very important to get the code to work server side**
 so for express, --save to update the package.JSON
+
+```javascript
+var http = require('http');
+http.createServer(function(req, res) {
+    res.writeHead(200, {
+        'Content-Type': 'text/plain'
+    });
+    res.end('hello world');
+}).listen(3000);
+
+```
+`res.writeHead` is the headercode and the content type. A headercode is 404 for not found.  
+
+This is how you would write it in normal node
+
+```javascript
+var express =require('express')
+var app = express()
+app.get("/", function (req, res){
+  res.send('Hello World!')
+});
+app.get("/goodbye", function (req, res){
+  res.send('Bye')
+});
+app.listen(3000, function(){
+  console.log('Example of running');
+});
+```
+
+There are dynamic paths
+static paths can be frontend files, put them in a folder usually
+
+`app.use(express.static('public'))`
+
+Stuff in the public folder
