@@ -33,3 +33,30 @@ Add listen on port that heroku understands (so not 3000)
 `process.env.PORT | 3000`
 
 `git push heroku master`
+
+** || Piping ||**
+
+add,get(the page you want)
+
+
+Dynamically doing it
+
+```javascript
+app.get('/punch/:variable', function(req, res){
+  res.send(req.params.variable);
+});
+
+appt.get(/'querytest', function (req, res){
+  res.send(req.query.name);
+
+})
+```
+
+static pages
+```javascript
+app.use(express.static('public'))
+
+app.use('/static',express.static('public'))
+// in order to use a subfolder
+```
+*public could be any folder*
