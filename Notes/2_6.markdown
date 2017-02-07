@@ -1,0 +1,35 @@
+**More Node**
+
+Making a package
+
+`npm init` *hit enter a bunch of times*
+
+`npm install express --save` *to install express to the directory and append the package.json file*
+``` javascript
+var express = require('express');
+var app = express():
+    app.get('/', function(req, res) {
+        res.send('punch a nazi? yex/no');
+    });
+app.listen(3000);
+
+```
+`npm install -g nodemon`
+*Allows for node server to autoupdate*
+
+`git init`
+*initialize new git repo*
+make `.gitignore` file
+in this case put *node_modules* in it to not push that to heroku
+
+`heroku create __optional-name__`
+modify the pakage.json
+add
+`"start": "node index.json"` in the scripts part. make sure to add a comma after the previous entry
+
+`git add .` and `git commit -m __message__` to update git
+
+Add listen on port that heroku understands (so not 3000)
+`process.env.PORT | 3000`
+
+`git push heroku master`

@@ -77,3 +77,4 @@ Stuff in the public folder
 heroku
 git based server
 must have accurate package.json files
+nodemon
