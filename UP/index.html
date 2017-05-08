@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>POST TESTING</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">  </script>
+    <script>
+      $(document).ready(function(){
+        var start,end;
+        $("#submit").click(function(){
+          start=$("#start").val();
+          end=$("#end").val();
+          $.post("http://localhost:3000/?",{startID=start&endID=end}, function(data){
+            if(data==='done')
+              {
+                alert("login success");
+              }
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h3>Start and End points</h3>
+    <input placeholder="start" type="TEXT" id="start" size="40"><br>
+    <input type="TEXT" id="end" size="40"><br>
+    <input type="button" id="submit" value="Submit">
+  </body>
+</html>
